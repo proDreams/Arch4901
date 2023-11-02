@@ -48,7 +48,7 @@ class Scene:
     flashes: list[Flash]
     cameras: list[Camera] = []
 
-    def __init__(self, id_, models: list[PolygonalModel], flashes: list[Flash], cameras: list[Camera]):
+    def __init__(self, id, models: list[PolygonalModel], flashes: list[Flash], cameras: list[Camera]):
         self.id_ = id_
 
         if len(models) > 0:
